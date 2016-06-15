@@ -1,6 +1,6 @@
 /*  Community Theme Styling */
 /*  Created Originally By donvoo(https://github.com/donvoo) & greySynapse(https://github.com/greySynapse) */
-/*  Maintained and Updated By PowerOfMad(https://github.com/PowerOfMad) */
+/*  Maintained and Updated By TheBanHammer(https://github.com/thebanhammer) & PixelBreeze(https://github.com/PixelBreeze) */
 
 /********/
 /*TITLES*/
@@ -312,7 +312,7 @@
 /* Room History & RCS Skip Button */
 #history-button,
 #rs-skip-button {
-  background: linear-gradient(to bottom, rgba(253,185,19,1) 0%,rgba(0,106,68,1) 44%,rgba(193,39,45,1) 100%) !important;
+  background: rgb(3, 0, 7) !important;
 }
 
 #rs-skip-button {
@@ -670,8 +670,7 @@
 /* Footer Bar */
 #footer {
   background: rgb(3, 0, 7) !important;
-        /*background:             linear-gradient(0deg,#13002f 0,#002149 169%,#111317 100%) !important;*/
-  ;
+        /*background:             linear-gradient(0deg,#13002f 0,#002149 169%,#111317 100%) !important;*/;
 }
 
 /* Footer Buttons Static */
@@ -911,8 +910,7 @@
         -webkit-box-shadow:     inset 0 -3px 0 0 rgba(84, 123, 201, 1) !important;
         -moz-box-shadow:        inset 0 -3px 0 0 rgba(84, 123, 201, 1) !important;
         -o-box-shadow:          inset 0 -3px 0 0 rgba(84, 123, 201, 1) !important;
-        box-shadow:             inset 0 -3px 0 0 rgba(84, 123, 201, 1) !important; */
-  ;
+        box-shadow:             inset 0 -3px 0 0 rgba(84, 123, 201, 1) !important; */;
 }
 
 #user-rollover .info:hover,
@@ -931,13 +929,13 @@
   background: rgb(3, 0, 7) !important;
 }
 
-#p3-settings .header,#p3-settings-custom-colors .header": {
-background
-:linear-gradient(to bottom, rgba(253,185,19,1) 0%,rgba(0,106,68,1) 44%,rgba(193,39,45,1) 100%) !important;
-}
-
 #playlist-button {
-background: linear-gradient(to bottom, rgba(253,185,19,1) 0%,rgba(0,106,68,1) 44%,rgba(193,39,45,1) 100%) !important;
+  background: linear-gradient(to bottom, rgba(253,185,19,1) 0%,rgba(0,106,68,1) 44%,rgba(193,39,45,1) 100%) !important;
+        /* Prevents Flicker Issues */
+  -webkit-box-shadow: inset 0 0 0 0 rgba(146, 90, 255, 1);
+  -moz-box-shadow: inset 0 0 0 0 rgba(146, 90, 255, 1);
+  -o-box-shadow: inset 0 0 0 0 rgba(146, 90, 255, 1);
+  box-shadow: inset 0 0 0 0 rgba(146, 90, 255, 1);
 }
 
 #playlist-button:hover {
@@ -1243,7 +1241,153 @@ background: linear-gradient(to bottom, rgba(253,185,19,1) 0%,rgba(0,106,68,1) 44
   }
 }
 
+/********/
+/*BADGES*/
+/********/
 
+/* STAFF */
+
+/* PixelBreeze */
+#chat-messages .id-196490 .badge-box i.bdg {
+  background-image: url('http://i.imgur.com/flFtDDn.png');
+  background-size: cover;
+}
+
+#chat-messages .id-196490 .badge-box {
+  background: none;
+}
+
+/* Kirby */
+#chat-messages .id-3893149 .badge-box i.bdg {
+  background-image: url('http://i.imgur.com/uxyQ4Wz.png');
+  background-size: cover;
+}
+
+/* asiansweg */
+/*#chat-messages .id-5520544 .badge-box i.bdg
+{
+        background-image:       url('http://i.imgur.com/OJZqg2l.png');
+        background-size:        cover;
+}*/
+
+/* SamuraiFlamenco */
+#chat-messages .id-5006104 .badge-box i.bdg {
+  background-image: url('https://i.imgur.com/XSpmXI6.jpg');
+  background-size: cover;
+}
+
+/* Danklight */
+#chat-messages .id-6582089 .badge-box i.bdg {
+  background-image: url('https://i.imgur.com/n6JVatT.jpg');
+  background-size: cover;
+}
+
+/* RedasTLU */
+#chat-messages .id-4725288 .badge-box i.bdg {
+  background-image: url('http://i.imgur.com/ibCm3gt.jpg');
+  background-size: cover;
+}
+
+/* NightcoreOP */
+#chat-messages .id-6133094 .badge-box i.bdg {
+  background-image: url('http://i.imgur.com/DrpMWKQ.png');
+  background-size: cover;
+}
+
+/* BushiNinja */
+#chat-messages .id-4189310 .badge-box i.bdg {
+  background-image: url('http://i.imgur.com/3MPUt6b.png');
+  background-size: cover;
+}
+
+/* JennyMagic */
+/*#chat-messages .id-5009139 .badge-box i.bdg
+{
+        background-image:       url('http://i.imgur.com/oLfGCbZ.png');
+        background-size:        cover;
+}*/
+
+/* Kaboom */
+#chat-messages .id-4742323 .badge-box i.bdg {
+  background-image: url('https://i.imgur.com/fZMzTOM.png');
+  background-size: cover;
+}
+
+/* Natilie */
+/*#chat-messages .id-5059731 .badge-box i.bdg
+{
+        background-image:       url('http://i.imgur.com/6jtg0uD.png');
+        background-size:        cover;
+}*/
+
+/* TheBanHammer */
+#chat-messages .id-3620521 .badge-box i.bdg {
+  background-image: url('https://i.imgur.com/jdadHuj.png');
+  background-size: cover;
+}
+
+/* Allo */
+/*#chat-messages .id-4444591 .badge-box i.bdg
+{
+        background-image:       url('http://i.imgur.com/opp3TlA.jpg');
+        background-size:        cover;
+}*/
+
+/* DJ dude alex */
+#chat-messages .id-4058796 .badge-box i.bdg {
+  background-image: url('http://i.imgur.com/FtVD6sC.png');
+  background-size: cover;
+}
+
+/* Nuggie */
+#chat-messages .id-3901318 .badge-box i.bdg {
+  background-image: url('http://i.imgur.com/MmzLq1v.jpg');
+  background-size: cover;
+}
+/* Char */
+#chat-messages .id-6181075 .badge-box i.bdg {
+  background-image: url('http://i.imgur.com/DutVmD0.png');
+  background-size: cover;
+}
+
+/* Renchoniko */
+#chat-messages .id-4346793 .badge-box i.bdg {
+  background-image: url('http://i.imgur.com/jTBaPRY.jpg');
+  background-size: cover;
+}
+/* Xfirenl */
+#chat-messages .id-5483545 .badge-box i.bdg {
+  background-image: url('http://i.imgur.com/hnB5Nbl.png');
+  background-size: cover;
+}
+/* Cyan */
+#chat-messages .id-3432506 .badge-box i.bdg {
+  background-image: url('http://i.imgur.com/kLLmINe.png');
+  background-size: cover;
+}
+/*minymind*/
+#chat-messages .id-6355338 .badge-box i.bdg {
+  background-image: url('http://i.imgur.com/vsvxEUp.png');
+  background-size: cover;
+}
+/*Fabbes*/
+#chat-messages .id-6116330 .badge-box i.bdg {
+  background-image: url('http://imgur.com/iPTuutM.png');
+  background-size: cover;
+}
+/*Daphne*/
+#chat-messages .id-5383341 .badge-box i.bdg {
+  background-image: url('http://i.imgur.com/gTl2uwb.png');
+  background-size: cover;
+}
+
+/* NON-STAFF */
+
+/* DREKEN */
+#chat-messages .id-3632408 .badge-box i.bdg {
+  background-image: url('http://i.imgur.com/TU9MSYQ.gif');
+  background-size: cover;
+}
 
 /*********/
 /*7 MENUS*/
@@ -1648,7 +1792,42 @@ background: linear-gradient(to bottom, rgba(253,185,19,1) 0%,rgba(0,106,68,1) 44
   background: rgba(45, 27, 97, 0.1) !important;
 }
 
+/***************/
+/*NAME STYLINGS*/
+/***************/
 
+/* Enyx */
+[data-cid^="3684485-"].cm .msg .from .un, #user-lists .list .role-manager.id-3684485 .name {
+  color: #000 !important;
+  text-shadow: 0px 0px 1px #ac76ff, 0px 0px 5px #ac76ff, 0px 0px 15px #ac76ff !important;
+}
+
+/* That Random Guy */
+[data-cid^="4105479"].cm .msg .from .un, #user-lists .list .role-cohost.id-4105479 .name {
+        /* Orange */
+  color: rgba(236, 126, 51, 1) !important;
+}
+
+/* Kirby */
+/* [data-cid^="3893149"].cm .msg .from .un, #user-lists .list .role-manager.id-5762084 .name
+{
+        color:                   rgba(230, 122, 227, 1) !important;
+} */
+
+/* Dyll / Erio */
+[data-cid^="5762084"].cm .msg .from .un, #user-lists .list .role-manager.id-5762084 .name {
+  color: rgba(22, 196, 228, 1) !important;
+}
+
+/* TBH */
+[data-cid^="3620521"].cm .msg .from .un, #user-lists .list .role-manager.id-3620521 .name {
+        /* Sky Blue */
+  color: rgb(189, 53, 184) !important;
+  text-shadow: 0px 0px 10px rgb(35, 200, 208);
+}
+
+
+/* Non - Staff */
 
 /*******************/
 /*BOT Customisation*/
