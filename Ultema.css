@@ -932,7 +932,7 @@
 }
 
 #playlist-button {
- background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(253,185,19,1)), color-stop(44%, rgba(0,106,68,1)), color-stop(100%, rgba(193,39,45,1))) !important;
+ background: rgba(193,39,45,1) !important;
   -webkit-transition: all 0.3s linear;
   -moz-transition: all 0.3s linear;
   -o-transition: all 0.3s linear;
@@ -1390,7 +1390,7 @@
 /* NON-STAFF */
 
 /* DREKEN */
-#chat-messages .id-3632408 .badge-box i.bdg {
+#chat-messages .id-6110426 .badge-box i.bdg {
   background-image: url('http://i.imgur.com/TU9MSYQ.gif');
   background-size: cover;
 }
