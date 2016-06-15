@@ -310,12 +310,9 @@
 /********/
 
 /* Room History & RCS Skip Button */
-#history-button {
-    background: linear-gradient(to bottom, rgba(253,185,19,1) 0%,rgba(0,106,68,1) 44%,rgba(193,39,45,1) 100%) !important;
-}
-
+#history-button,
 #rs-skip-button {
-  background: linear-gradient(to bottom, rgba(253,185,19,1) 0%,rgba(0,106,68,1) 44%,rgba(193,39,45,1) 100%) !important;
+    background: linear-gradient(to bottom, rgba(253,185,19,1) 0%,rgba(0,106,68,1) 44%,rgba(193,39,45,1) 100%) !important;
 }
 
 #rs-skip-button {
@@ -932,9 +929,6 @@
   background: rgb(3, 0, 7) !important;
 }
 
-#p3-settings .header,#p3-settings-custom-colors .header": {
-"background: linear-gradient(to bottom, rgba(253,185,19,1) 0%,rgba(0,106,68,1) 44%,rgba(193,39,45,1) 100%) !important;
-}
 #playlist-button {
   background: linear-gradient(to bottom, rgba(253,185,19,1) 0%,rgba(0,106,68,1) 44%,rgba(193,39,45,1) 100%) !important;
   
