@@ -932,15 +932,11 @@
 }
 
 #playlist-button {
-  background: rgba(253,185,19,1);
-background: -moz-linear-gradient(top, rgba(253,185,19,1) 0%, rgba(0,106,68,1) 44%, rgba(193,39,45,1) 100%);
-background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(253,185,19,1)), color-stop(44%, rgba(0,106,68,1)), color-stop(100%, rgba(193,39,45,1)));
-background: -webkit-linear-gradient(top, rgba(253,185,19,1) 0%, rgba(0,106,68,1) 44%, rgba(193,39,45,1) 100%);
-background: -o-linear-gradient(top, rgba(253,185,19,1) 0%, rgba(0,106,68,1) 44%, rgba(193,39,45,1) 100%);
-background: -ms-linear-gradient(top, rgba(253,185,19,1) 0%, rgba(0,106,68,1) 44%, rgba(193,39,45,1) 100%);
-background: linear-gradient(to bottom, rgba(253,185,19,1) 0%, rgba(0,106,68,1) 44%, rgba(193,39,45,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fdb913', endColorstr='#c1272d', GradientType=0 ); !important;
-
+ background: -webkit-linear-gradient(top, rgba(253,185,19,1) 0%, rgba(0,106,68,1) 44%, rgba(193,39,45,1) 100%) !important;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  transition: all 0.3s linear;
         /* Prevents Flicker Issues */
   -webkit-box-shadow: inset 0 0 0 0 rgba(146, 90, 255, 1);
   -moz-box-shadow: inset 0 0 0 0 rgba(146, 90, 255, 1);
