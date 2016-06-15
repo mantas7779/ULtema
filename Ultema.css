@@ -932,7 +932,7 @@
 }
 
 #playlist-button {
- background: rgba(193,39,45,1) !important;
+ background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(253,185,19,1)), color-stop(44%, rgba(0,106,68,1)), color-stop(100%, rgba(193,39,45,1))) !important;
   -webkit-transition: all 0.3s linear;
   -moz-transition: all 0.3s linear;
   -o-transition: all 0.3s linear;
