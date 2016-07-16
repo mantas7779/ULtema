@@ -7,17 +7,8 @@
 /********/
 
 /* Room History & RCS Skip Button */
-#history-button,
-#rs-skip-button {
+#history-button {
     background: linear-gradient(0deg,#13002f 0,#002149 169%,#111317 100%) !important;
-}
-
-#rs-skip-button {
-        /* Prevents Flicker Issues */
-  -webkit-box-shadow: inset 0 0 0 0 rgba(146, 90, 255, 0) !important;
-  -moz-box-shadow: inset 0 0 0 0 rgba(146, 90, 255, 0) !important;
-  -o-box-shadow: inset 0 0 0 0 rgba(146, 90, 255, 0) !important;
-  box-shadow: inset 0 0 0 0 rgba(146, 90, 255, 0) !important;
 }
 
 #history-button {
@@ -26,14 +17,6 @@
   -moz-box-shadow: inset 0 0 0 0 rgba(0, 156, 221, 0);
   -o-box-shadow: inset 0 0 0 0 rgba(0, 156, 221, 0);
   box-shadow: inset 0 0 0 0 rgba(0, 156, 221, 0);
-}
-
-#rs-skip-button, 
-#history-button {
-  -webkit-transition: all 0.3s linear;
-  -moz-transition: all 0.3s linear;
-  -o-transition: all 0.3s linear;
-  transition: all 0.3s linear;
 }
 
 #playlist-button {
@@ -69,7 +52,7 @@
 
 /* Room Meta (From Community Name to History Button) */
 #room-meta {
-  background: rgb(134, 80, 226) !important;
+  background: linear-gradient(0deg,#13002f 0,#002149 169%,#111317 100%) !important;
 }
 
 /* Chat Header */
