@@ -85,7 +85,30 @@
 #app .friends .list-header {
   background: rgb(3, 0, 7) !important;
 }
+/************/
+/*SCROLL BAR*/
+/************/
 
+/* Entire Bar */
+#chat-messages::-webkit-scrollbar {
+  width: 12px !important;
+}
+ 
+/* Track */
+#chat-messages::-webkit-scrollbar-track {
+  -webkit-border-radius: 3px !important;
+  background-color: rgba(150, 150, 150, 0.2) !important;
+}
+/* Track Hover */
+#chat-messages::-webkit-scrollbar-track:hover {
+  background-color: rgba(150, 150, 150, 0.2) !important;
+}
+ 
+/* Handle */
+#chat-messages::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 3px !important;
+  background-color: rgba(150, 150, 150, 1) !important;
+}
 /********/
 /*FOOTER*/
 /********/
