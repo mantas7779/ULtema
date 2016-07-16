@@ -40,7 +40,17 @@
   box-shadow: inset 0 0 0 0 rgba(146, 90, 255, 1);
 }
 
-
+#app-menu .list:hover > .community,
+#app-menu .list:hover > a:nth-child(2) > .events,
+#app-menu .list:hover > a:nth-child(3) > .support,
+#app-menu .list:hover > a:nth-child(4) > .blog,
+#app-menu .list:hover > a:nth-child(5) > .about,
+#app-menu .list:hover > a:nth-child(6) > .api, 
+#app-menu .list:hover > a:nth-child(7) > .terms,
+#app-menu .list:hover > a:nth-child(8) > .privacy,
+#app-menu .list:hover > .logout {
+  opacity: 0.3;
+}
 /* Plug Logo Menu */
 #app-menu .button, 
 #app-menu .list {
@@ -60,6 +70,20 @@
   background: linear-gradient(to bottom, rgba(253,185,19,1) 0%,rgba(0,106,68,1) 44%,rgba(193,39,45,1) 100%) !important;
 }
 
+#app-menu {
+  opacity: 0.95;
+}
+
+#app-menu .community,
+#app-menu .events, 
+#app-menu .support, 
+#app-menu .blog, 
+#app-menu .about, 
+#app-menu .api, 
+#app-menu .terms, 
+#app-menu .privacy {
+  opacity: 0.8;
+}
 
 /* Room Meta (From Community Name to History Button) */
 #room-meta {
@@ -157,8 +181,25 @@
   animation: fadein 0.35s;
 } 
 
+#user-rollover {
+  opacity: 0.95;
+  background: rgba(28, 28, 28, 1) !important;
+}
+/*Dashboard*/
+#dashboard .favorites, 
+#dashboard .cell, 
+#dashboard .join, 
+#dashboard .bar {
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  opacity: 0.75;
+}
 
-
+#dashboard .cell {
+  opacity: 0.75;
+}
 /* Video Player Background */
 #playback .background {
   visibility: visible;
@@ -169,13 +210,139 @@
 /******/
 
 /* /me Messages / Emotes */
-#chat .emote .text {
-  color: rgba(125, 96, 206, 1) !important;
-  font-weight: bold !important;
+
+#user-menu .avatar,
+#user-menu .profile,
+#user-menu .inventory,
+#user-menu .store,
+#user-menu .friends,
+#user-menu .played,
+#user-menu .community,
+#user-menu .settings {
+  opacity: 0.85;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  transition: all 0.3s linear;
 }
 
-#chat .emote .msg {
-  background: rgba(45, 27, 97, 0.1) !important;
+/*Inventory*/
+
+#user-inventory .jspPane .cell {
+  opacity: 0.55 !important;
+}
+
+
+#user-inventory .row {
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  opacity: 0.75;
+}
+
+
+/*Store*/
+
+#user-store .jspPane .cell {
+  opacity: 0.55 !important;
+}
+
+/*Friends*/
+#user-friends .list .row, 
+#user-friends .list .row .buttons .positive,
+#user-friends .list .row .buttons .negative {
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  opacity: 0.75;
+}
+
+#user-friends .list .row:hover {
+  opacity: 1 !important;
+}
+/*Communities*/
+#user-communities .cell, 
+#user-communities .join, 
+#user-communities .bar {
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  opacity: 0.75;
+}
+
+#user-communities .cell {
+  opacity: 0.75;
+}
+
+#footer-user .back {
+  background: rgb(3, 0, 7) !important;
+  opacity: 0.55;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+/*Dialog*/
+#dialog-media-update,
+#dialog-playlist-rename, 
+#dialog-playlist-delete,
+#dialog-playlist-create,
+#dialog-delete {
+  opacity: .85;
+}
+
+#dialog-media-update > .dialog-body,
+#dialog-media-update > .dialog-frame,
+#dialog-playlist-rename > .dialog-body,
+#dialog-playlist-rename > .dialog-frame,
+#dialog-playlist-delete > .dialog-body,
+#dialog-playlist-delete > .dialog-frame,
+#dialog-playlist-create > .dialog-body,
+#dialog-playlist-create > .dialog-frame,
+#dialog-delete > .dialog-body,
+#dialog-delete > .dialog-frame {
+  opacity: .85;
+}
+
+#dialog-user-role,
+#dialog-ban-user,
+#dialog-mute-user,
+#dialog-gift-send {
+  opacity: 1;
+}
+
+#dialog-user-role .role-menu .menu li:nth-child(n+1),
+#dialog-ban-user .dialog-body .duration .toggle,
+#dialog-ban-user .dialog-body .duration .toggle.day,
+#dialog-ban-user .dialog-body .duration .toggle.forever,
+#dialog-ban-user .dialog-body ul li:nth-child(n+1),
+#dialog-ban-user .dialog-body li .radio,
+#dialog-mute-user .dialog-body .duration .toggle.short,
+#dialog-mute-user .dialog-body .duration .toggle.medium,
+#dialog-mute-user .dialog-body .duration .toggle.long,
+#dialog-mute-user .dialog-body ul li:nth-child(n+1),
+#dialog-mute-user .dialog-body li .radio {
+  opacity: 1;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+
+#dialog-user-role .dialog-frame:hover > .button.cancel,
+#dialog-user-role .dialog-frame:hover > .button.submit,
+#dialog-ban-user .dialog-frame:hover > .button.cancel,
+#dialog-ban-user .dialog-frame:hover > .button.submit,
+#dialog-mute-user .dialog-frame:hover > .button.cancel,
+#dialog-mute-user .dialog-frame:hover > .button.submit,
+#dialog-gift-send .dialog-frame:hover > .button.submit,
+#dialog-gift-send .dialog-frame:hover > .button.cancel {
+  opacity: 0.4;
 }
 
 /***************/
