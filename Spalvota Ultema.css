@@ -535,6 +535,15 @@
   opacity: 1;
 }
 
+/* /me Messages / Emotes */
+#chat .emote .text {
+  color: rgba(125, 96, 206, 1) !important;
+  font-weight: bold !important;
+}
+
+#chat .emote .msg {
+  background: rgba(45, 27, 97, 0.1) !important;
+}
 /* Icon Hover in User List */
 #user-lists .header .button.room i,
 #user-lists .header .button.staff,
