@@ -304,6 +304,34 @@
   -o-box-shadow: inset 0 -8px 0 0 rgba(0, 156, 221, 1) !important;
   box-shadow: inset 0 -8px 0 0 rgba(0, 156, 221, 1) !important;
 }
+/************/
+/*SCROLL BAR*/
+/************/
+
+/* Entire Bar */
+#chat-messages::-webkit-scrollbar {
+  width: 12px !important;
+}
+ 
+/* Track */
+#chat-messages::-webkit-scrollbar-track {
+  -webkit-border-radius: 3px !important;
+  background-color: rgba(150, 150, 150, 0.2) !important;
+}
+/* Track Hover */
+#chat-messages::-webkit-scrollbar-track:hover {
+  background-color: rgba(150, 150, 150, 0.2) !important;
+}
+ 
+/* Handle */
+#chat-messages::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 3px !important;
+  background-color: rgba(150, 150, 150, 1) !important;
+}
+/* Handle Hover */
+#chat-messages::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(84, 123, 160, 1) !important;
+}
 
 /********/
 /*HEADER*/
