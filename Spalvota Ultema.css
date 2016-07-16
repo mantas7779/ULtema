@@ -7,8 +7,17 @@
 /********/
 
 /* Room History & RCS Skip Button */
-#history-button {
+#history-button,
+#rs-skip-button {
     background: linear-gradient(0deg,#13002f 0,#002149 169%,#111317 100%) !important;
+}
+
+#rs-skip-button {
+        /* Prevents Flicker Issues */
+  -webkit-box-shadow: inset 0 0 0 0 rgba(146, 90, 255, 0) !important;
+  -moz-box-shadow: inset 0 0 0 0 rgba(146, 90, 255, 0) !important;
+  -o-box-shadow: inset 0 0 0 0 rgba(146, 90, 255, 0) !important;
+  box-shadow: inset 0 0 0 0 rgba(146, 90, 255, 0) !important;
 }
 
 #history-button {
