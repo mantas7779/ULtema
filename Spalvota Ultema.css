@@ -115,7 +115,15 @@
 #app .friends .list-header {
   background: rgb(3, 0, 7) !important;
 }
+/* /me Messages / Emotes */
+#chat .emote .text {
+  color: rgba(125, 96, 206, 1) !important;
+  font-weight: bold !important;
+}
 
+#chat .emote .msg {
+  background: rgba(45, 27, 97, 0.1) !important;
+}
 /********/
 /*FOOTER*/
 /********/
