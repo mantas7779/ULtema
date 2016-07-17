@@ -411,8 +411,6 @@
   background-image: url('http://guesstheemoji-answers.com/wp-content/uploads/2014/06/guess-the-emoji-up-481.jpg') !important;
   background-size: cover;
 }
-
-
 /**-Vabaliukas_Ul**/
 #chat-messages .id-3857513 .badge-box i.bdg {
   background-image: url('http://media04.ligtv.com.tr/img/teams/23/390_1.png') !important;
@@ -423,6 +421,17 @@
   background-image: url('http://rs460.pbsrc.com/albums/qq328/jayesh_jg/mail.gif~c200') !important;
   background-size: cover;
 }
+/**TBPS**/
+#chat-messages .id-4105132 .badge-box i.bdg {
+  background-image: url('http://img3.rnkr-static.com/user_node_img/657/13120495/C50/asa-akira-people-in-film-photo-u19.jpg') !important;
+  background-size: cover;
+}
+/*Hollywood_Star*/
+#chat-messages .id-13445492 .badge-box i.bdg {
+  background-image: url('https://yt3.ggpht.com/-gLt3iaDoaoA/AAAAAAAAAAI/AAAAAAAAAAA/F5qcYTeVs8Q/s88-c-k-no-rj-c0xffffff/photo.jpg') !important;
+  background-size: cover;
+}
+
 /***NON STAFF***/
 
 /**Randomas**/
@@ -452,7 +461,7 @@
 }
 /**Chuckorris **/
 #chat-messages .id-13186343 .badge-box i.bdg {
-  background-image: url('https://1.bp.blogspot.com/-wTj5nWa5lcU/V1iWeFhb88I/AAAAAAAAATQ/TTbYPfBxiCQqznlNd47k6EOmdAi_Xk2KACLcB/s72-c/nba-2-icon.png') !important;
+  background-image: url('http://www.nuk3.com/gallery/images/comedy/thumbnails/8037.jpg') !important;
   background-size: cover;
 }
 
