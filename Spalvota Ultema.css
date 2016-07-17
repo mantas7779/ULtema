@@ -428,7 +428,22 @@
   background-image: url('http://www.seethat.co.uk/wp-content/uploads/2016/05/Adidas-Client-Logo.jpg') !important;
   background-size: cover;
 }
- 
+/**Canel`as**/
+#chat-messages .id-3529452 .badge-box i.bdg {
+  background-image: url('http://logok.org/wp-content/uploads/2015/08/Camel-cigarette-logo-on-package.jpg') !important;
+  background-size: cover;
+}
+/**SweetTouch **/
+#chat-messages .id-3529452 .badge-box i.bdg {
+  background-image: url('http://www.downloadfeast.com/wp-content/uploads/2016/05/camera.gif') !important;
+  background-size: cover;
+}
+/**GGGirtuoklisss **/
+#chat-messages .id-4030669 .badge-box i.bdg {
+  background-image: url('http://guesstheemoji-answers.com/wp-content/uploads/2014/06/guess-the-emoji-up-481.jpg') !important;
+  background-size: cover;
+}
+
 /**************/
 /*TEST SECTION*/
 /**************/
