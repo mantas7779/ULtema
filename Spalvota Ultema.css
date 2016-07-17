@@ -373,6 +373,9 @@
 /*******************/
 /*Badges*/
 /*******************/
+
+/***STAFF***/
+
 /**Gerdutė**/
 #chat-messages .id-3579906 .badge-box i.bdg {
   background-image: url('http://www.sport24.gr/Basket/Euroleague/article3769355.ece/BINARY/original/image.jpg')!important;
@@ -388,44 +391,9 @@
   background-image: url('http://thumb.webps.cn/i1/img/4/TB1GRekGXXXXXXwaXXXXXXXXXXX_!!0-item_pic.jpg_200x200.jpg') !important;
   background-size: cover;
 }
-/**Randomas**/
-#chat-messages .id-6110426 .badge-box i.bdg {
-  background-image: url('http://www.gifmania.us/Animated-Gifs-Technology/Free-Animations-Radar/Small-Army-Radar-53093.gif') !important;
-  background-size: cover;
-}
-/**Filbertas**/
-#chat-messages .id-13474152 .badge-box i.bdg {
-  background-image: url('http://pbs.twimg.com/profile_images/585186081605349376/lEsADMJV.jpg') !important;
-  background-size: cover;
-}
-/**Mangirdas  (Dj Mange) **/
-#chat-messages .id- .badge-box i.bdg {
-  background-image: url('http://image.prntscr.com/image/c82f36597da8473193b0c2719f1e96ff.png') !important;
-  background-size: cover;
-}
-/**ItsDJMaster**/
-#chat-messages .id- .badge-box i.bdg {
-  background-image: url('https://img.ifcdn.com/images/ca4105ebb3f570b73750e4d3577230eda1a36706d2aaacb3cf4870e3e496a744_1.jpg') !important;
-  background-size: cover;
-}
-/**-Sadness**/
-#chat-messages .id- .badge-box i.bdg {
-  background-image: url('http://i.talpix.lt/9I0Q0.jpg') !important;
-  background-size: cover;
-}
-/**bemer**/
-#chat-messages .id- .badge-box i.bdg {
-  background-image: url('http://199.204.185.30/new_neta/thumb/1407491264416s.jpg') !important;
-  background-size: cover;
-}
 /**-VelnioSąžinė**/
 #chat-messages .id-4090785 .badge-box i.bdg {
   background-image: url('http://preloaders.net/preloaders/409/Devil.gif') !important;
-  background-size: cover;
-}
-/**-sherif**/
-#chat-messages .id-3611882 .badge-box i.bdg {
-  background-image: url('http://www.seethat.co.uk/wp-content/uploads/2016/05/Adidas-Client-Logo.jpg') !important;
   background-size: cover;
 }
 /**Canel`as**/
@@ -443,16 +411,8 @@
   background-image: url('http://guesstheemoji-answers.com/wp-content/uploads/2014/06/guess-the-emoji-up-481.jpg') !important;
   background-size: cover;
 }
-/**Plytaa**/
-#chat-messages .id-5035147 .badge-box i.bdg {
-  background-image: url('http://www.infocasasigradina.ro/img_art/caramida.jpg') !important;
-  background-size: cover;
-}
-/**-Vyšnia**/
-#chat-messages .id-5928547 .badge-box i.bdg {
-  background-image: url('https://apps.ubuntu.com/site_media/icons/2013/06/_usr_share_icons_hicolor_scalable_apps_cherrytree.png') !important;
-  background-size: cover;
-}
+
+
 /**-Vabaliukas_Ul**/
 #chat-messages .id-3857513 .badge-box i.bdg {
   background-image: url('http://media04.ligtv.com.tr/img/teams/23/390_1.png') !important;
@@ -463,6 +423,39 @@
   background-image: url('http://rs460.pbsrc.com/albums/qq328/jayesh_jg/mail.gif~c200') !important;
   background-size: cover;
 }
+/***NON STAFF***/
+
+/**Randomas**/
+#chat-messages .id-6110426 .badge-box i.bdg {
+  background-image: url('http://www.gifmania.us/Animated-Gifs-Technology/Free-Animations-Radar/Small-Army-Radar-53093.gif') !important;
+  background-size: cover;
+}
+/**Filbertas**/
+#chat-messages .id-13474152 .badge-box i.bdg {
+  background-image: url('http://pbs.twimg.com/profile_images/585186081605349376/lEsADMJV.jpg') !important;
+  background-size: cover;
+}
+/**-Vyšnia**/
+/*#chat-messages .id-5928547 .badge-box i.bdg {
+  background-image: url('https://apps.ubuntu.com/site_media/icons/2013/06/_usr_share_icons_hicolor_scalable_apps_cherrytree.png') !important;
+  background-size: cover;
+}*/
+/**Plytaa**/
+#chat-messages .id-5035147 .badge-box i.bdg {
+  background-image: url('http://www.infocasasigradina.ro/img_art/caramida.jpg') !important;
+  background-size: cover;
+}
+/**-sherif**/
+#chat-messages .id-3611882 .badge-box i.bdg {
+  background-image: url('http://www.seethat.co.uk/wp-content/uploads/2016/05/Adidas-Client-Logo.jpg') !important;
+  background-size: cover;
+}
+/**Chuckorris **/
+#chat-messages .id-13186343 .badge-box i.bdg {
+  background-image: url('https://1.bp.blogspot.com/-wTj5nWa5lcU/V1iWeFhb88I/AAAAAAAAATQ/TTbYPfBxiCQqznlNd47k6EOmdAi_Xk2KACLcB/s72-c/nba-2-icon.png') !important;
+  background-size: cover;
+}
+
 /**♫Black&WhiteTiger♫ **/
 /*#chat-messages .id-14001764 .badge-box i.bdg {
   background-image: url('') !important;
