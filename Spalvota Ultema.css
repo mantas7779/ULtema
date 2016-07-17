@@ -458,7 +458,17 @@
   background-image: url('http://media04.ligtv.com.tr/img/teams/23/390_1.png') !important;
   background-size: cover;
 }
-
+/**EdvinasK20**/
+#chat-messages .id-14001764 .badge-box i.bdg {
+  background-image: url('http://rs460.pbsrc.com/albums/qq328/jayesh_jg/mail.gif~c200') !important;
+  background-size: cover;
+}
+/**♫Black&WhiteTiger♫ **/
+/*#chat-messages .id-14001764 .badge-box i.bdg {
+  background-image: url('') !important;
+  background-size: cover;
+}
+*/
 
 /**************/
 /*TEST SECTION*/
