@@ -453,6 +453,12 @@
   background-image: url('https://apps.ubuntu.com/site_media/icons/2013/06/_usr_share_icons_hicolor_scalable_apps_cherrytree.png') !important;
   background-size: cover;
 }
+/**-Vabaliukas_Ul**/
+#chat-messages .id-3857513 .badge-box i.bdg {
+  background-image: url('http://media04.ligtv.com.tr/img/teams/23/390_1.png') !important;
+  background-size: cover;
+}
+
 
 /**************/
 /*TEST SECTION*/
