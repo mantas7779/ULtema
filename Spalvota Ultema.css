@@ -523,44 +523,39 @@
     color: #6669ff !important;
 }
 .icon-chat-subscriber + span {
-    color: #eebd13 !important;
+    color: #dd7a44 !important;
 }
-
+.icon-chat-silversubscriber + span {
+    color: #a1a6b3 !important;
+}
 .cm.role-dj .from .un, .role-dj .name
 {
         color: #6669ff !important;
 }
-
-.icon-chat-dj + span
+.icon-chat-dj 
 {
     background: url("http://i.imgur.com/EsEu6mi.png") !important;
 }
-
 .cm.role-bouncer .from .un, .role-bouncer .name
 {
         color: #c1272d !important;
 }
-
 .icon-chat-bouncer 
 {
     background: url("http://i.imgur.com/WpFX7KO.png");
 }
-
 .cm.role-manager .from .un, .role-manager .name
 {
         color: #006a44 !important;
 }
-
 .icon-chat-manager 
 {
     background: url("http://i.imgur.com/7kA6NhJ.png");
 }
-
 .cm.role-cohost .from .un, .role-cohost .name, .cm.role-host .from .un, .role-host .name
 {
         color: #fdb913 !important;
 }
-
 .cm.is-subscriber:not(.silver) .from .un, .is-subscriber:not(.silver) .name
 {
    color: #dd7a44 !important;
@@ -569,9 +564,7 @@
 {
   background: url("http://i.imgur.com/29t2aO8.png");
 }
-
 .icon-chat-host 
 {
     background: url("http://i.imgur.com/LEo1zvQ.png");
 }
-
