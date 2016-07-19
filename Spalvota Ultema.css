@@ -543,7 +543,7 @@
         color: #fdb913 !important;
 }
 
-.cm.is-subscriber .from .un, is-subscriber:not(.silver) .name
+.cm.is-subscriber:not(.silver) .from .un, is-subscriber:not(.silver) .name
 {
    color: #de4d00 !important;
 }
