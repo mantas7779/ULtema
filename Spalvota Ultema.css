@@ -513,7 +513,7 @@
         color: #6669ff !important;
 }
 
-.icon-chat-dj 
+.icon-chat-dj + span
 {
     background: url("http://i.imgur.com/EsEu6mi.png") !important;
 }
@@ -523,7 +523,7 @@
         color: #c1272d !important;
 }
 
-.icon-chat-bouncer 
+.icon-chat-bouncer + span
 {
     background: url("http://i.imgur.com/WpFX7KO.png");
 }
@@ -533,7 +533,7 @@
         color: #006a44 !important;
 }
 
-.icon-chat-manager 
+.icon-chat-manager + span 
 {
     background: url("http://i.imgur.com/7kA6NhJ.png");
 }
@@ -547,12 +547,12 @@
 {
    color: #dd7a44 !important;
 }
-.icon-chat-subscriber
+.icon-chat-subscriber + span
 {
   background: url("http://i.imgur.com/29t2aO8.png");
 }
 
-.icon-chat-host 
+.icon-chat-host + span
 {
     background: url("http://i.imgur.com/LEo1zvQ.png");
 }
