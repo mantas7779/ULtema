@@ -356,7 +356,7 @@
 } */
 
 /*Randomas*/
-[data-cid^="6110426"].cm .msg .from .un, #user-lists .list .role-cohost.id-6110426 .name {
+[data-cid^="6110426"].cm .msg .from .un, #user-lists .list .role-user.id-6110426 .name {
   color: rgba(244, 0, 188, 1) !important;
 }
 /*Akira Luna*/
