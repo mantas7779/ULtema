@@ -543,21 +543,13 @@
         color: #fdb913 !important;
 }
 
-.cm.is-subscriber .from .un, .is-subscriber .name
+.cm.is-subscriber .from .un, is-subscriber:not(.silver)  .name.
 {
    color: #de4d00 !important;
 }
 .icon-chat-subscriber
 {
   background: url("http://i.imgur.com/mBXySKM.png");
-}
-.cm.is-subscriber.silver .from .un, .is-subscriber.silver .name
-{
-   color: #7E8AA7 !important;
-}
-.icon-chat-cohost 
-{
-    background: url("http://i.imgur.com/LEo1zvQ.png");
 }
 
 .icon-chat-host 
