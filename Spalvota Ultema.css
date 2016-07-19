@@ -507,6 +507,24 @@
 /*******/
 /*ROLES*/
 /*******/
+.icon-chat-host + span {
+    color: #fdb913 !important;
+}
+.icon-chat-cohost + span {
+    color: #fdb913 !important;
+}
+.icon-chat-manager + span {
+    color: #006a44 !important;
+}
+.icon-chat-bouncer + span {
+    color: #c1272d !important;
+}
+.icon-chat-dj + span {
+    color: #6669ff !important;
+}
+.icon-chat-subscriber + span {
+    color: #eebd13 !important;
+}
 
 .cm.role-dj .from .un, .role-dj .name
 {
@@ -523,7 +541,7 @@
         color: #c1272d !important;
 }
 
-.icon-chat-bouncer + span
+.icon-chat-bouncer 
 {
     background: url("http://i.imgur.com/WpFX7KO.png");
 }
@@ -533,7 +551,7 @@
         color: #006a44 !important;
 }
 
-.icon-chat-manager + span 
+.icon-chat-manager 
 {
     background: url("http://i.imgur.com/7kA6NhJ.png");
 }
@@ -547,12 +565,12 @@
 {
    color: #dd7a44 !important;
 }
-.icon-chat-subscriber + span
+.icon-chat-subscriber 
 {
   background: url("http://i.imgur.com/29t2aO8.png");
 }
 
-.icon-chat-host + span
+.icon-chat-host 
 {
     background: url("http://i.imgur.com/LEo1zvQ.png");
 }
