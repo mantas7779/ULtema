@@ -355,7 +355,11 @@
         color:                   rgba(230, 122, 227, 1) !important;
 } */
 
-/* Dyll / Erio */
+/*Randomas*/
+[data-cid^="6110426"].cm .msg .from .un, #user-lists .list .role-cohost.id-6110426 .name {
+  color: rgba(244, 0, 188, 1) !important;
+}
+/*Akira Luna*/
 [data-cid^="6110426"].cm .msg .from .un, #user-lists .list .role-cohost.id-6110426 .name {
   color: rgba(22, 196, 228, 1) !important;
 }
