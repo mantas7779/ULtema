@@ -542,10 +542,7 @@
 {
         color: #fdb913 !important;
 }
-.cm.is-subscriber.silver .from .un, .is-subscriber.silver .name
-{
-   color: #CAF6F4 !important;
-}
+
 .cm.is-subscriber:not(.silver) .from .un, .is-subscriber:not(.silver) .name
 {
    color: #de4d00 !important;
