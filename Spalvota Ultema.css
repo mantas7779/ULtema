@@ -543,6 +543,11 @@
         color: #fdb913 !important;
 }
 
+.cm.is-subscriber .from .un, .is-subscriber .name
+{
+   color: #de4d00 !important;
+}
+
 .icon-chat-cohost 
 {
     background: url("http://i.imgur.com/LEo1zvQ.png");
@@ -552,3 +557,4 @@
 {
     background: url("http://i.imgur.com/LEo1zvQ.png");
 }
+
