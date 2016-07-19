@@ -547,11 +547,14 @@
 {
    color: #de4d00 !important;
 }
-.icon-chat-subsriber
+.icon-chat-subscriber
 {
   background: url("http://i.imgur.com/mBXySKM.png");
 }
-
+.cm.is-subsriber.silver .from .un, .is-subsriber.silver .name
+{
+   color: #7E8AA7 !important;
+}
 .icon-chat-cohost 
 {
     background: url("http://i.imgur.com/LEo1zvQ.png");
